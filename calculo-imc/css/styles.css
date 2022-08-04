@@ -1,0 +1,71 @@
+body {
+  padding: 30px;
+  background-color: lightgray;
+}
+
+header {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin: 20px auto;
+  font-size: large;
+}
+
+button {
+  color: rgb(3, 39, 27);
+  background-color: rgb(1, 248, 166);
+  border-radius: 10%;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px auto;
+  border: none;
+  margin: 20px auto;
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+button:hover {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.inputs {
+  display: flex;
+  position: relative;
+  margin: auto;
+  justify-content: space-between;
+  width: 250px;
+  padding: 10px;
+}
+
+.content {
+  padding: 20px;
+  border-radius: 30px;
+  background-color: aquamarine;
+  width: 400px;
+  margin: auto;
+}
+
+#inputWeight,
+#inputHeight {
+  background-color: whitesmoke;
+  border: none;
+  /* text-align: center; */
+}
+
+#analiseIMC {
+  font-weight: 200;
+}
+
+ .medidas {
+    color: lightgray;
+    position: absolute;
+    right: 35px;
+} 

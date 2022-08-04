@@ -1,0 +1,34 @@
+<html>
+  <script>
+    document.write("18+2");
+    function verificaNumeroPrimo(num) {
+      if (num == 1) {
+        //return "O número " + num + " não é primo";
+        return false;
+      }
+
+      for (var i = 1; i < num; i++) {
+        if (i > 1 && num % i === 0) {
+          //return "O número " + num + " não é primo";
+          return false;
+        }
+      }
+      //return "O número " + num + " é primo";
+      return true;
+    }
+
+    function somaPrimos(maior, menor = 2) {
+      let soma = 0;
+      let primos = [];
+
+      for (let i = menor; i < maior; i++) {
+        if (verificaNumeroPrimo(i)) {
+          primos.push(i);
+          soma += i;
+        }
+      }
+      console.log(primos);
+      return soma;
+    }
+  </script>
+</html>

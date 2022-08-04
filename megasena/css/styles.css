@@ -1,0 +1,67 @@
+body {
+  padding: 10px;
+  background-color: lightgray;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+button {
+  margin-right: 10px;
+  padding: 4px 10px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  color: gray;
+}
+
+li {
+  list-style-type: none;
+  margin: 0;
+  margin-bottom: 5px;
+  padding: 0px;
+  margin-inline-start: -35px;
+}
+
+#megasena-board {
+  width: 600px;
+  margin: auto;
+}
+
+#megasena-saved-games {
+  padding: auto;
+  margin: auto;
+}
+
+.buttonEnabled:hover {
+  cursor: pointer;
+  color: black;
+  font-style: bold;
+  background-color: darkgray;
+}
+
+.numbers {
+  border: 1px solid gray;
+  padding: 10px;
+  list-style-type: none;
+  font-family: monospace;
+  font-size: 20px;
+  text-align: center;
+}
+
+.number {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid gray;
+  width: 25px;
+  margin: 10px;
+  border-radius: 100%;
+  cursor: pointer;
+  user-select: none;
+}
+
+.selected-number {
+  background-color: lightgreen;
+}
+
+.emptySavedGames {
+  color: red;
+}
